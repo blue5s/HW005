@@ -1,0 +1,74 @@
+body{
+    background-image: url(background.jpg);
+    text-align: center;
+}
+
+body *{
+    font-family:sans-serif;
+}
+
+.col{
+    background-color: white;
+    width: 25%;
+    height:550px;
+    display: inline-block;
+    margin: 50px 30px;
+    border-radius: 20px;
+}
+
+.content{
+    width: 100%;
+    background-color: navy;
+    height: 300px;
+    color: white;
+}
+
+.free_plan{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 35px;
+}
+.price_tag *{
+    display: inline-block;
+    padding: 10px;
+    }
+
+.price_tag{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.dollar{
+    font-size: 20px;
+    color: white;
+    vertical-align: top;
+}
+.price{
+    font-size: 70px;
+    color: white; 
+}
+.MO{
+    font-size: 20px;
+    color: white; 
+}
+.button{
+    border-radius: 8px;
+    padding: 15px 3px;
+    border: 2px solid white;
+    width:70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.feature_col {
+    color: #8b8b8b;
+    width: 60%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 10px;
+    font-size: 20px;
+}
